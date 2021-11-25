@@ -1,0 +1,7 @@
+.Home{
+   background-color: #EBF2F7;
+   height: 100vh;
+   display: flex;
+   overflow-x: hidden;
+   overflow: hidden;
+}

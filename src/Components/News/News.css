@@ -1,0 +1,53 @@
+.News{
+    width: 76vw;
+    height: 96vh;
+}
+.News-vertical{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    width: 72vw;
+    
+}
+.News-card{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    z-index: 10;
+}
+.page-numbers{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    position: relative;
+}
+
+.page-numbers button{
+    position: absolute;
+    bottom: 10px;
+    background-color: transparent;
+    border: none;
+}
+.p1{
+    left: 47%;
+}
+.p2{
+    left: 50%;
+}
+.p3{
+    left: 53%;
+}
+.page-numbers svg{
+    width: 10px;
+    position: absolute;
+    bottom: 14px;
+    left: 56%;
+}
+
+.Error{
+    color: red;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}

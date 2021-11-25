@@ -1,0 +1,45 @@
+
+
+.HorizontalCard{
+    display: flex;
+    background-color: white;
+    align-self: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: #b9babb 10px 11px 20px 1px;
+    overflow-x: hidden;
+    margin-right: 10px;
+}
+
+.horizontal-card-img img{
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+
+.news-info{
+    padding: 0 2rem;
+}
+.news-info h4{
+    white-space: nowrap;
+}
+.news-info p{
+    white-space: nowrap;
+    padding-right: 10px;
+}
+.exit{    
+    height: 2rem;
+    background-color: white;
+    padding: 0.6rem;
+    border-radius: 50%;
+    width: 3rem;
+}
+.horizontal-fullcard{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 25px 59px;
+    height: 15%;
+}
+.date{
+    opacity: 40%;
+}
